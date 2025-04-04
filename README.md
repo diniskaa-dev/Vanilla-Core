@@ -1,1 +1,2 @@
-Vanilla-Core 1.21.4
+Supported Minecraft Versions: 
+ - 1.21.4
