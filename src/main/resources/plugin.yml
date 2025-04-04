@@ -1,6 +1,9 @@
 name: CorePlugin
 version: '1.0-SNAPSHOT'
 main: ua.whoami.vanilla.core.CorePlugin
-api-version: '1.21'
-authors: [ whoami ]
+api-version: '1.21.4'
+author: [whoami]
 website: https://github.com/sxnsh1ness/Vanilla-Core
+commands:
+  message:
+    usage: /<command> [player] [message]
