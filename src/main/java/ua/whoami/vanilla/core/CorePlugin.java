@@ -1,6 +1,7 @@
 package ua.whoami.vanilla.core;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import ua.whoami.vanilla.configs.CommandConfig;
 import ua.whoami.vanilla.configs.DefaultConfig;
 import ua.whoami.vanilla.configs.MessageConfig;
 import ua.whoami.vanilla.utils.Common;
@@ -14,6 +15,7 @@ public final class CorePlugin extends JavaPlugin {
         instance = this;
         MessageConfig.loadMessageConfig();
         DefaultConfig.loadDefaultConfig();
+        CommandConfig.loadCommandConfig();
         Common.registerCommands();
     }
 
